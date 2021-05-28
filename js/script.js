@@ -9,4 +9,4 @@ if (nUtente > nComp) {
     risultato = "Il tuo numero è inferiore: il computer ha vinto."
 }
 
-document.getElementById("text").innerHTML = risultato;
+document.getElementById("text").innerHTML = "Numero Giocatore: " + nUtente + "; Numero Computer: " + nComp + "; </br>" + risultato;
